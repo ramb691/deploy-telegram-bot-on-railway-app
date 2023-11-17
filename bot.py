@@ -70,11 +70,11 @@ async def command_start(message: types.Message):
 		if not result:
 			db_object.execute("INSERT INTO users(id, username) VALUES (%s, %s)", (user_id, username))
 			db_connection.commit()
-			await bot.send_message(message.chat.id, f"السلام عليكم 🖐\n Welcome {username}\nYou have got 2 points for free",reply_markup=await gen_main_markup())
+			await bot.send_message(message.chat.id, f"مرحباً بك في البوت🖐\n Welcome {username}\nYou have got 2 points for free",reply_markup=await gen_main_markup())
 	  		
 	  		
 		else:
-			await bot.send_message(message.chat.id, f"السلام عليكم 🖐\n Welcome {username}",reply_markup=await gen_main_markup())
+			await bot.send_message(message.chat.id, f"مرحباً بك في البوت🖐\n Welcome {username}",reply_markup=await gen_main_markup())
 
   	
 
