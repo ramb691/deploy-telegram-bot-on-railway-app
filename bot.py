@@ -21,8 +21,8 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 
 
 
-API_TOKEN = '5730303832:AAGE3lbjVqNaqJ0bUww-eRUzW_dNTkrJXrg'
-DB_URI ="postgresql://postgres:SEvju9ySxpC7lfoeXwwU@containers-us-west-79.railway.app:7370/railway"
+API_TOKEN = '6480206578:AAEGG5LCVSa8VfnH9UP4AXIQJ2bw1nbbp5I'
+DB_URI ="mongodb+srv://kazim:<password>@cluster0.kk0tbu8.mongodb.net/?retryWrites=true&w=majority"
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
